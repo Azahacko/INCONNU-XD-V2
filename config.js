@@ -8,14 +8,14 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'INCONNU~XD~OJwVEILC#bTPJfBFSkXfMnVHIP7UfubQIBDIj2UQseYgBiXY7H70',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " 554488138425",              
+    OWNER_NAME: process.env.OWNER_NAME || "Dark-DEV",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " 22603582906",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'INCONNU-XD-V2',
-    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/959dyk.jpg',
+    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/zovvzc.png',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
